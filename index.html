@@ -10,17 +10,53 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Profile card component</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    Victor Crest 26 London 80K Followers 803K Likes 1.4K Photos
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+    <div class="bg-top"></div>
+    <div class="container d-flex justify-content-center align-items-center">
+      <div class="card d-flex f-columns">
+        <div class="card-header">
+          <div class="text-center">
+            <img
+              class="img-rounded"
+              src="images/image-victor.jpg"
+              alt="victor"
+            />
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="text-center">
+            <span class="text-bold">Victor Crest</span> <span>26</span>
+          </div>
+          <div class="text-center text-gray mt-2">London</div>
+        </div>
+        <div class="card-footer">
+          <div class="d-flex justify-content-between align-items-center g-2">
+            <p class="d-flex f-columns text-center">
+              <span class="text-bold">80K</span
+              ><span class="text-gray mt-2">Followers</span>
+            </p>
+            <p class="d-flex f-columns text-center">
+              <span class="text-bold">803K</span
+              ><span class="text-gray mt-2">Likes</span>
+            </p>
+
+            <p class="d-flex f-columns text-center">
+              <span class="text-bold">1.4K</span
+              ><span class="text-gray mt-2">Photos</span>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
